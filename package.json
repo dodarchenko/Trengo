@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "cypress": "^13.5.0"
+    
   },
   "name": "trengotest",
   "version": "1.0.0",

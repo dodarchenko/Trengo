@@ -27,6 +27,5 @@ class TeamPage {
     getListOfTeams(){
         return cy.get('.row-inner')
     }
-    
 }
 export default TeamPage

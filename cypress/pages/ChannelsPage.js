@@ -26,6 +26,5 @@ class ChannelsPage {
     getAllChannels(){
         return cy.get('.row-inner')
     }
-    
 }
 export default ChannelsPage

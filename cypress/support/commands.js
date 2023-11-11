@@ -10,6 +10,7 @@ Cypress.Commands.add('login', (email, password) => {
     //Validate login
     cy.url().should('include', '/tickets'); 
     cy.get('[data-test="main-navigation-inbox"]').should('be.visible');
+    
 });
 
 

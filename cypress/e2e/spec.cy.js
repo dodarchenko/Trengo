@@ -1,7 +1,7 @@
-import { email, password } from '/Users/nadiiavolynska/TrengoTest/credentials.js';
-import ChannelsPage from '/Users/nadiiavolynska/TrengoTest/cypress/pages/ChannelsPage.js';
-import TeamPage from '../pages/TeamPage.js';
-import CommonFnc from '../pages/CommonFnc.js';
+import { email, password } from '/credentials.js';
+import ChannelsPage from 'cypress/pages/ChannelsPage.js';
+import TeamPage from 'cypress/pages/TeamPage.js';
+import CommonFnc from 'cypress/pages/CommonFnc.js';
 
 describe('Trengo tests', () => {
   beforeEach(() => {

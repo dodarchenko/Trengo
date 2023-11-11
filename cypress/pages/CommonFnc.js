@@ -9,5 +9,6 @@ class CommonFnc{
     
         return text;
       }
+      
 }
 export default CommonFnc
