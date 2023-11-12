@@ -5,10 +5,10 @@
 - Cypress - v13.5.0
 
 ## Installation
-- >Git clone https://github.com/dodarchenko/TrengoTest
-- >npm install cypress --save-dev
-- >npm init
+- **Git clone https://github.com/dodarchenko/TrengoTest**
+- **npm install cypress --save-dev**
+- **npm init**
 
 ## Running tests
-> npx cypress open
+ **npx cypress open**
 
