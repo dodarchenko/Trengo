@@ -14,12 +14,12 @@ class TeamPage {
 
     selectFirstUser(){
         cy.get('[data-test="create-team-members"]').click()
-        cy.get('[data-test="create-team-members"] > .multiselect > .multiselect__content-wrapper > .multiselect__content > .multiselect__element > .multiselect__option').should('be.visible').click()
+        cy.get('[data-test="create-team-members"] .multiselect__option').first().should('be.visible').click()
     }
 
     selectChannel(){
         cy.get('[placeholder="Select one or more channels"]').click()
-        cy.get(':nth-child(3) > .multiselect__option').click()
+        cy.get('[data-test="create-team-channels"] .multiselect__option').first().click()
         cy.get('[data-test="input"]').click()
         cy.get('[data-test="create-team-modal-submit"]').click()
     }
