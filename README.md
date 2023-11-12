@@ -6,9 +6,12 @@
 
 ## Installation
 - **Git clone https://github.com/dodarchenko/TrengoTest**
+
+Run following commands in the terminal
+
 - **npm install cypress --save-dev**
 - **npm init**
 
 ## Running tests
- **npx cypress open**
+- **npx cypress open**
 
